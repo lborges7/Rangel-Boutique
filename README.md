@@ -1,4 +1,4 @@
-# Rangel Boutique - Banco de Dados (Projeto Acadêmico / Portfólio)
+# Rangel Boutique - Banco de Dados 
 
 Este repositório contém os scripts SQL para criação, povoamento e manipulação do banco de dados do projeto **Rangel Boutique** — um e-commerce de roupas e acessórios femininos.
 

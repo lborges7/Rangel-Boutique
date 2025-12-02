@@ -7,8 +7,7 @@ Este repositório contém os scripts SQL para criação, povoamento e manipulaç
 - `sql/02_insert_seed.sql` — Dados de exemplo (fictícios) para testes
 - `sql/03_queries.sql` — Consultas demonstrativas (SELECT com JOINs, agregações)
 - `sql/04_updates_deletes.sql` — Exemplos de UPDATE e DELETE
-- `docs/DER_crowsfoot.png` — Diagrama Entidade-Relacionamento (Crow's Foot)
-- `docs/modelo_relacional.png` — (opcional) imagem do modelo relacional final
+- `docs/DER_Rangel_Boutique.png` — Diagrama Entidade-Relacionamento (Crow's Foot)
 
 ## Instruções de execução (PostgreSQL / pgAdmin)
 1. Crie um banco (ex.: `rangel_db`) e conecte no pgAdmin ou psql.

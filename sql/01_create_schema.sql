@@ -90,20 +90,11 @@ CREATE TABLE pagamento (
   datapagamento   TIMESTAMP WITH TIME ZONE
 );
 
--- audit / logs simples (opcional)
-CREATE TABLE audit_log (
-  idlog           BIGSERIAL PRIMARY KEY,
-  entidade        VARCHAR(60),
-  identidade      BIGINT,
-  acao            VARCHAR(30),
-  descricao       TEXT,
-  momento         TIMESTAMP WITH TIME ZONE DEFAULT now()
-);
-
 COMMIT;
 
--- Recommended: create indexes for queries
+
 CREATE INDEX idx_variacao_produto ON variacao(idproduto);
 CREATE INDEX idx_pedido_cliente ON pedido(idcliente);
 CREATE INDEX idx_itempedido_pedido ON itempedido(idpedido);
 CREATE INDEX idx_itempedido_variacao ON itempedido(idvariacao);
+
